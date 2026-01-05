@@ -1,0 +1,10 @@
+defaults:
+- _self_
+- dataset: zsre
+- model: llama-3
+- editor: hiedit
+num_seq: 8000
+num_pre: 500
+glue_step: 0
+model_device: cuda:0
+editor_device: cuda:0

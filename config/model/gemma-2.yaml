@@ -1,0 +1,27 @@
+name_or_path: hugging_cache/gemma-2
+name: gemma-2
+model_vec_size: 17920
+class_name: AutoModelForCausalLM
+edit_modules:
+
+- model.layers.32.mlp.gate_proj
+- model.layers.33.mlp.gate_proj
+- model.layers.34.mlp.gate_proj
+- model.layers.35.mlp.gate_proj
+- model.layers.36.mlp.gate_proj
+- model.layers.37.mlp.gate_proj
+- model.layers.38.mlp.gate_proj
+- model.layers.39.mlp.gate_proj
+- model.layers.40.mlp.gate_proj
+
+- model.layers.32.mlp.up_proj
+- model.layers.33.mlp.up_proj
+- model.layers.34.mlp.up_proj
+- model.layers.35.mlp.up_proj
+- model.layers.36.mlp.up_proj
+- model.layers.37.mlp.up_proj
+- model.layers.38.mlp.up_proj
+- model.layers.39.mlp.up_proj
+- model.layers.40.mlp.up_proj
+
+half: True
