@@ -11,7 +11,7 @@ conda create -n hiedit python==3.10
 conda activate hiedit
 ```
 
-Second, download the LLMs, Llama-3-8B and Gemma-2-9B, into the directories `hugging_cache/llama-3` and `hugging_cache/gemma-2`, respectively.
+Second, download the LLMs, `meta-llama/Meta-Llama-3-8B-Instruct` and `google/gemma-2-9b`, into the directories `hugging_cache/llama-3` and `hugging_cache/gemma-2`, respectively.
 
 Third, execute the following examples for lifelong model editing using the "2000*1" configuration.
 
