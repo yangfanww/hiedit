@@ -48,3 +48,7 @@ The parameters including:
 - `num_seq`: the total length of the editing sequence.
 - `num_pre`: the number of previously edited instances for evaluation.
 - `editor.n_layers`: the number of editing layers per edit.
+
+## Acknowledgement
+
+Our code is based on [RLEdit](https://github.com/zhrli324/RLEdit) and [malmen](https://github.com/ChenmienTan/malmen).
